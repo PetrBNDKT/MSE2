@@ -2,8 +2,11 @@
 
 ## Použité formátování
 
-# Nezobrazovat nulu:
+### Nezobrazovat nulu:
 0;-0;;@
 
-# USD finanční formát
+### USD finanční formát
 "$"# ##0_);("$"# ##0);"$"0_)
+
+### návody Excel
+https://office.lasakovi.com/excel/
