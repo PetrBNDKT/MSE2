@@ -2,3 +2,8 @@
 
 ## Použité formátování
 
+# Nezobrazovat nulu:
+0;-0;;@
+
+# USD finanční formát
+"$"# ##0_);("$"# ##0);"$"0_)
