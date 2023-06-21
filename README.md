@@ -48,6 +48,8 @@ https://office.lasakovi.com/excel/
 ## Pokročilé funkce
 
 ### Jak odstranit diakritiku
-```
-=LAMBDA(text;SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(text;"á";"a");"Á";"A");"ä";"a");"Ä";"A");"č";"c");"Č";"C");"ď";"d");"Ď";"D");"é";"e");"ě";"e");"ë";"e");"É";"E");"Ě";"E");"Ë";"E");"í";"i");"Í";"I");"ň";"n");"Ň";"N");"ó";"o");"Ó";"O");"ö";"o");"Ö";"O");"ř";"r");"Ř";"R");"š";"s");"Š";"S");"ť";"t");"Ť";"T");"ú";"u");"Ú";"U");"ů";"u");"Ů";"U");"ü";"u");"Ü";"U");"ý";"y");"Ý";"Y");"ž";"z");"Ž";"Z"))
-```
+* EN verze
+```=LAMBDA(text;SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(text;"á";"a");"Á";"A");"ä";"a");"Ä";"A");"č";"c");"Č";"C");"ď";"d");"Ď";"D");"é";"e");"ě";"e");"ë";"e");"É";"E");"Ě";"E");"Ë";"E");"í";"i");"Í";"I");"ň";"n");"Ň";"N");"ó";"o");"Ó";"O");"ö";"o");"Ö";"O");"ř";"r");"Ř";"R");"š";"s");"Š";"S");"ť";"t");"Ť";"T");"ú";"u");"Ú";"U");"ů";"u");"Ů";"U");"ü";"u");"Ü";"U");"ý";"y");"Ý";"Y");"ž";"z");"Ž";"Z"))```
+
+* CZ verze
+```=LAMBDA(text;DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(DOSADIT(text;"á";"a");"Á";"A");"ä";"a");"Ä";"A");"č";"c");"Č";"C");"ď";"d");"Ď";"D");"é";"e");"ě";"e");"ë";"e");"É";"E");"Ě";"E");"Ë";"E");"í";"i");"Í";"I");"ň";"n");"Ň";"N");"ó";"o");"Ó";"O");"ö";"o");"Ö";"O");"ř";"r");"Ř";"R");"š";"s");"Š";"S");"ť";"t");"Ť";"T");"ú";"u");"Ú";"U");"ů";"u");"Ů";"U");"ü";"u");"Ü";"U");"ý";"y");"Ý";"Y");"ž";"z");"Ž";"Z"))```
